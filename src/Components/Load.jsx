@@ -1,3 +1,4 @@
+ // eslint-disable-next-line
 import Loader from "react-loader-spinner";
 const Load = ()=>{
 return(

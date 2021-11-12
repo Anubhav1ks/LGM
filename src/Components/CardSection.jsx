@@ -1,3 +1,4 @@
+ // eslint-disable-next-line
 import Card from './Card';
 import Load from './Load';
 const CardSection = (props)=>{

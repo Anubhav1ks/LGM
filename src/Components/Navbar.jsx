@@ -1,3 +1,4 @@
+ // eslint-disable-next-line
 import React from 'react';
 
 const Navbar = (props) => {
@@ -15,8 +16,11 @@ const Navbar = (props) => {
   }
   return (
         <div className="navbar">
-          <h1>TechCurators</h1>
+            <div className="brand-and-toggler">
+          <h1 className="navbar-brand">ZIPPY</h1>
         <button onClick={loadUsers}>Get Users</button>
+      </div>
+
       </div>
   );
 }

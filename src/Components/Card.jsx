@@ -1,3 +1,4 @@
+
 const Card = (props)=>{
     return(
         <div key={props.idx.id} className="card">
